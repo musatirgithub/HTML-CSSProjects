@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+}
+
+.container {
+    margin: 200px auto;
+    width: 600px;
+    height: 250px;
+    background-color: rgb(177, 174, 174);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    padding: 30px 20px 20px;
+}
+
+/* LEFT SECTION */
+.left{
+    flex: 1;
+    background-color: rgb(58, 58, 170);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+}
+
+.btn-1{
+    background-color: yellow;
+}
+
+.mid-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-2{
+    background-color: white;
+}
+
+.btn-3{
+    background-color: red;
+}
+
+.btn-4{
+    background-color: orange;
+}
+
+.btn-5{
+    background-color: green;
+}
+/* MIDDLE SECTION */
+.middle{
+    flex: 1;
+    background-color: rgb(170, 58, 123);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.sections{
+background-color: rgb(221, 204, 204);
+margin: 5px 0px;
+}
+
+.section-1{
+    flex: 1;
+    margin-top: 0;
+    
+}
+
+.section-2{
+    flex: 1;
+}
+
+.section-3{
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-4{
+    flex: 2.3;
+    border: inset 9px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mid-btn{
+    background-color: white;
+    width: 65px;
+    height: 35px;
+    border-radius: 17.5px;
+    box-shadow: 4px 3px 8px grey;
+
+}
+
+.section-5{
+    flex: 0.5;
+    margin-bottom: 0;
+}
+/* RIGHT SECTION */
+
+.right{
+    flex: 1;
+    background-color: rgb(58, 58, 170);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-up{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color: rgb(58, 58, 170);
+}
+
+.right-up>span{
+    margin: auto;
+    border: 2px solid brown;
+    color: brown;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 22px;
+}
+
+.right-down{
+    flex: 1;
+    background-color: rgb(58, 58, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-btn{
+    width: 70px;
+    height: 70px;
+    background-color: grey;
+    margin: 2px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0 0 2px 3px white;
+}
+
+.action-btn span{
+    color: red;
+    font-weight: 700;
+    position: absolute;
+    left:42% ;
+    top: 100%;
+}
